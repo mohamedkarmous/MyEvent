@@ -105,7 +105,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void sendtoMain() {
 
-        Intent intent = new Intent(LoginActivity.this,Splashscreen.class);
+        Intent intent = new Intent(LoginActivity.this,MainActivity.class);
         startActivity(intent);
         finish();
 
@@ -125,7 +125,13 @@ public class LoginActivity extends AppCompatActivity {
             finish();
 
 
+
+
+
+
         }
+
+
 
 
 

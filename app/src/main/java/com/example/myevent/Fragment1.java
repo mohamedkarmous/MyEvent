@@ -1,6 +1,5 @@
 package com.example.myevent;
 
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -131,8 +130,8 @@ public class Fragment1 extends Fragment implements View.OnClickListener{
 
 
                         }else {
-                            Intent intent = new Intent(getActivity(),LoginActivity.class);
-                          //  startActivity(intent);
+                            Intent intent = new Intent(getActivity(),CreateProfile.class);
+                            startActivity(intent);
                         }
                     }
                 });
